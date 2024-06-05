@@ -4,24 +4,23 @@ default: &default
   timeout: 5000
   username: postgres
   password: postgres
-  host: 127.0.0.1
-  port: 15433
+  host: localhost
+  port: 15434
 
 development:
   <<: *default
   database: postgresql
-  host: 127.0.0.1
-  port: 15433
-
+  host: localhost
+  port: 15434
 
 test:
   <<: *default
   database: postgresql
-  host: 127.0.0.1
-  port: 15433
+  host: localhost
+  port: 15434
 
 production:
   <<: *default
   database: postgresql
-  host: 127.0.0.1
-  port: 15433
+  host: localhost
+  port: 15434
