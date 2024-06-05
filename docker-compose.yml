@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  db:
+    container_name: cqrs-db-01
+    image: postgres:16
+    environment:
+      - DATABASE_HOST=localhost
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - PGPASSWORD=postgres
+    ports:
+      - "15434:5432"
+    volumes:
+      - datavol:/var/lib/postgresql/data
+
+volumes:
+  datavol:
