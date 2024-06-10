@@ -1,17 +1,35 @@
 version: '3.8'
 services:
-  db:
-    container_name: cqrs-db-01
+  write_db:
+    container_name: cqrs-write-db
     image: postgres:16
     environment:
       - DATABASE_HOST=localhost
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-      - PGPASSWORD=postgres
     ports:
       - "15434:5432"
     volumes:
-      - datavol:/var/lib/postgresql/data
+      - datavol-write:/var/lib/postgresql/data
+    networks:
+      - cqrs-network
+  read_db:
+    container_name: cqrs-read-db
+    image: postgres:16
+    environment:
+      - DATABASE_HOST=localhost
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - "15435:5432"
+    volumes:
+      - datavol-read:/var/lib/postgresql/data
+    networks:
+      - cqrs-network
 
 volumes:
-  datavol:
+  datavol-read:
+  datavol-write:
+
+networks:
+  cqrs-network:
