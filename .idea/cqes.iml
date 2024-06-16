@@ -425,6 +425,36 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="arproxy (v0.2.9) [path][gem]" type="rubylib">
+        <properties>
+          <option name="additionalInfo">
+            <AdditionalInfo>
+              <option name="authors" value="該当なし" />
+              <option name="email" value="該当なし" />
+              <option name="homepage" value="該当なし" />
+              <option name="summary" value="該当なし" />
+            </AdditionalInfo>
+          </option>
+          <option name="fromPath" value="true" />
+          <option name="name" value="arproxy" />
+          <option name="requirePaths">
+            <list>
+              <option value="lib" />
+            </list>
+          </option>
+          <option name="url" value="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/arproxy-0.2.9" />
+          <option name="version" value="0.2.9" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/arproxy-0.2.9/lib" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/3.2.0/gems/arproxy-0.2.9/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="ast (v2.4.2) [path][gem]" type="rubylib">
         <properties>
           <option name="additionalInfo">

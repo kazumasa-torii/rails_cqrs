@@ -18,6 +18,7 @@ development:
     port: 15435
     username: postgres
     password: postgres
+    replica: true
 test:
   <<: *default
   database: postgresql
