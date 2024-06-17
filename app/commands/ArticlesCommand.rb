@@ -11,7 +11,7 @@ class ArticlesCommand
 
   def update
     if @article.valid?(@article_params)
-      @article.save(@article_params)
+      @article.update(@article_params)
     end
   end
 end

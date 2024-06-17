@@ -1,3 +1,5 @@
 <%= form_with model: @article do |f| %>
+  <%= f.hidden_field :title, :value => "test_title_new" %>
+  <%= f.hidden_field :body, :value => "test_tbody_new" %>
   <%= f.submit '投稿' %>
 <% end %>

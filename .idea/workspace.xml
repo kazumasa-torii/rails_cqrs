@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d05a7da-7282-422e-87b9-682a90624004" name="変更" comment="ArticlesCommand class create">
-      <change afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/articles/edit.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/articles/show.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/articles_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/articles_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/article.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/article.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/articles/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/application.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/application.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/query_tracer.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/query_tracer.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/queries/articles_query.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/queries/articles_query.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/articles/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/articles/new.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -181,7 +179,8 @@
       <workItem from="1718063128630" duration="404000" />
       <workItem from="1718198767228" duration="3221000" />
       <workItem from="1718235676172" duration="1510000" />
-      <workItem from="1718546557833" duration="3961000" />
+      <workItem from="1718546557833" duration="4681000" />
+      <workItem from="1718627787998" duration="2540000" />
     </task>
     <task id="LOCAL-00001" summary="ArticlesCommand class create">
       <option name="closed" value="true" />
@@ -216,6 +215,6 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cqes@cqes.rcov" NAME="cqes のカバレッジ結果" MODIFIED="1718550451565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cqes" />
+    <SUITE FILE_PATH="coverage/cqes@cqes.rcov" NAME="cqes のカバレッジ結果" MODIFIED="1718629342354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="cqes" />
   </component>
 </project>

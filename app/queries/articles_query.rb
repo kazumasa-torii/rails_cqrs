@@ -1,11 +1,15 @@
 # frozen_string_literal: true
 
 class ArticlesQuery
-  def initialize(article_params)
-    @article_params = article_params
+  def initialize(scope = Article.all)
+    @scope = scope
   end
 
-  def search
-    Article.where(@article_params)
+  def call(params)
+    @scope.where(params)
+  end
+
+  def first(params)
+    @scope.where(params).first
   end
 end

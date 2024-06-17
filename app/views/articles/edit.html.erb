@@ -1,0 +1,5 @@
+<%= form_with model: @article do |f| %>
+  <%= f.hidden_field :title, :value => "test_title_edit" %>
+  <%= f.hidden_field :body, :value => "test_tbody_edit" %>
+  <%= f.submit '更新' %>
+<% end %>
